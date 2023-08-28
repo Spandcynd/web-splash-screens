@@ -1,0 +1,170 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  height: 100%;
+  font-family: Figtree, Arial, sans-serif;
+  font-size: 1.2rem;
+}
+
+.document-container {
+  height: 100%;
+  display: flex;
+}
+
+.main-container {
+  height: 100%;
+  flex: 0 1 50%;
+}
+
+.main {
+  min-height: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 96px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.registration-container {
+  flex: 1 1 auto;
+}
+
+.main__h1-container {
+  margin-bottom: 64px;
+  text-align: center;
+}
+
+.main__h1 {
+}
+
+.upper-label-container {
+  margin-bottom: 24px;
+}
+
+.input-container {
+  margin-bottom: 24px;
+  vertical-align: middle;
+}
+
+.registration-container > .input-container:last-child {
+  margin-bottom: 0;
+}
+
+.input-container__input {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  font-size: inherit;
+}
+
+.input-container__input::placeholder {
+  font-family: Figtree;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.input-container__input_black {
+  background-color: black;
+  color: white;
+}
+
+.input-container__input[type='submit'] {
+  cursor: pointer;
+}
+
+.lower-label-container {
+  margin-bottom: 64px;
+  font-size: 0.9rem;
+}
+
+.lower-label-container__lower-label {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.lower-label-container__lower-label a {
+  font-weight: 600;
+  color: black;
+}
+
+.input-container__button {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: inherit;
+  background: white;
+  cursor: pointer;
+}
+
+.input-container__button_black {
+  background-color: black;
+  color: white;
+}
+
+.input-container__button .icon-container {
+  margin-right: 10px;
+}
+
+.aside-container {
+  flex: 0 1 50%;
+  background-image: url(../img/img1.png);
+  background-size: cover;
+  color: white;
+}
+
+.aside {
+  padding: 96px 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.aside__header-container {
+}
+
+.aside__h2-container {
+  margin-bottom: 32px;
+}
+
+.aside__h2 {
+}
+
+.aside__bottom-text-container {
+  margin-bottom: 64px;
+  font-size: 1.5rem;
+}
+
+.aside__slider-button {
+  background: transparent;
+  display: inline-block;
+  width: 2rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.aside__slider-button:hover {
+  transform: scale(1.2);
+}
+
+.aside__slider-button:first-child {
+  margin-right: 28px;
+}
+
+.aside__slider-container .icon-container {
+  width: 2rem;
+}
+
+/* ================================================= */
+
+.icon-container {
+  display: inline-block;
+  width: 1rem;
+}
+
+a:hover {
+  text-decoration: none;
+}
