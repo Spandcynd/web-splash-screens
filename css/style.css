@@ -32,6 +32,16 @@ body {
   flex: 1 1 auto;
 }
 
+.rem-control-container {
+  margin-bottom: 16px;
+}
+
+.rem-control-container > * {
+  background: transparent;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
 .main__h1-container {
   margin-bottom: 64px;
   text-align: center;
