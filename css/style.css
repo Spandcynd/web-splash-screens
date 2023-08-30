@@ -19,8 +19,8 @@ body {
 }
 
 .main {
-  min-height: 100%;
-  max-width: 500px;
+  min-height: 1000px;
+  max-width: 550px;
   margin: 0 auto;
   padding: 96px 50px;
   display: flex;
@@ -28,7 +28,7 @@ body {
   justify-content: space-between;
 }
 
-.registration-container {
+.form-container {
   flex: 1 1 auto;
 }
 
@@ -47,19 +47,15 @@ body {
   text-align: center;
 }
 
-.main__h1 {
-}
-
 .upper-label-container {
   margin-bottom: 24px;
 }
 
 .input-container {
   margin-bottom: 24px;
-  vertical-align: middle;
 }
 
-.registration-container > .input-container:last-child {
+.form-container > .input-container:last-child {
   margin-bottom: 0;
 }
 
@@ -90,11 +86,11 @@ body {
   font-size: 0.9rem;
 }
 
-.lower-label-container__lower-label {
+.lower-label-container__label {
   color: rgba(0, 0, 0, 0.4);
 }
 
-.lower-label-container__lower-label a {
+.lower-label-container__label a {
   font-weight: 600;
   color: black;
 }
@@ -133,14 +129,8 @@ body {
   height: 100%;
 }
 
-.aside__header-container {
-}
-
 .aside__h2-container {
   margin-bottom: 32px;
-}
-
-.aside__h2 {
 }
 
 .aside__bottom-text-container {
@@ -160,7 +150,7 @@ body {
   transform: scale(1.2);
 }
 
-.aside__slider-button:first-child {
+.aside__slider-left-button {
   margin-right: 28px;
 }
 
@@ -173,11 +163,23 @@ body {
   transform: none;
 }
 
+.aside__slider-left-button::before {
+  transform: rotate(0deg);
+}
+
+.aside__slider-right-button::before {
+  transform: rotate(180deg);
+}
+
 /* ================================================= */
 
 .icon-container {
   display: inline-block;
   width: 1rem;
+}
+
+a {
+  color: inherit;
 }
 
 a:hover {
