@@ -140,8 +140,8 @@ body {
 
 .aside__slider-button {
   background: transparent;
-  display: inline-block;
-  width: 2rem;
+  font-size: 2rem;
+  color: inherit;
   cursor: pointer;
   transition: all 0.2s;
 }
@@ -154,8 +154,13 @@ body {
   margin-right: 28px;
 }
 
-.aside__slider-container .icon-container {
-  width: 2rem;
+.aside__slider-button_disabled {
+  color: rgba(255, 255, 255, 0.4);
+  cursor: default;
+}
+
+.aside__slider-button_disabled:hover {
+  transform: none;
 }
 
 /* ================================================= */
